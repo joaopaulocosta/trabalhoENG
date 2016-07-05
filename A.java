@@ -2,6 +2,7 @@ class A{
 	private int A1;
 	private float A2;
 	private String A3;
+	private String Aramo4;
 	
 	public void setA1(int a1){
 		this.A1 = a1;
@@ -29,6 +30,14 @@ class A{
 	
 	public float soma(){
 		return (float)A1 + A2;
+	}
+	
+	public void setAramo4(String a4){
+		this.Aramo4 = a4;
+	}
+	
+	public String getAramo4(){
+		return this.Aramo4;
 	}
 	
 }
