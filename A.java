@@ -37,7 +37,8 @@ class A{
 	}
 	
 	public String getAramo4(){
-		return this.Aramo4;
+		String aux = this.Aroma4;
+		return  axu;
 	}
 	
 }
